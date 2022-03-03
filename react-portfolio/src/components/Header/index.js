@@ -18,8 +18,8 @@ function Header() {
           <Route exact path="/" render={() => <Redirect to="/about" />} />
           <Route path="/about" component={About} />
           <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact}/>
           <Route path="/resume" component={Resume}/>
+          <Route path="/contact" component={Contact}/>
         </div>
       </HashRouter>
     );
