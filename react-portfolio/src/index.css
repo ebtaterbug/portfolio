@@ -141,6 +141,9 @@ input {
   transition: box-shadow 0.2s;
 }
 
+.center {
+  text-align: center;
+}
 input:focus {
   border: 1px solid var(--secondary);
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
@@ -174,7 +177,6 @@ textarea {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 .flex-row {

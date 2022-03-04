@@ -17,7 +17,7 @@ function Navigation(props) {
               About me
             </a>
           </li>
-          <li className="mx-2" >
+          <li className="mx-2" onClick={() => setCurrentPage('portfolio')}>
             <a>
               Portfolio
             </a>
