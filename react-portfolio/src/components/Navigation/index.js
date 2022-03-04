@@ -1,40 +1,38 @@
 import React from "react";
-import { Navbar } from "react-bootstrap";
-import {NavLink} from "react-router-dom";
 
-function Navigation(props) {
+function Navigation() {
   return (
-    <div>
-      <Navbar expand="lg" bg="dark" sticky="top">
-        <NavLink className="nav-link" to="/">
-          <div class="text-light">
-            <h4 class="nav-title-font">Ian Joseph</h4>
-          </div>
-        </NavLink>
-        <ul class="navbar-nav ml-auto navitem-indent">
-          <li class="nav-item">
-            <NavLink to="/about">
-              <div class="nav-font text-light">About Me</div>
-            </NavLink>
+    <header className="flex-row px-1">
+      <h2>
+        <a data-testid="link" href="/">
+          Ian Joseph
+        </a>
+      </h2>
+      <nav>
+        <ul className="flex-row">
+          <li className="mx-2">
+            <a data-testid="about" href="about">
+              About me
+            </a>
           </li>
-          <li class="nav-item">
-            <NavLink to="/portfolio">
-              <div class="nav-font text-light">Portfolio</div>
-            </NavLink>
+          <li className="mx-2" >
+            <a data-testid="portfolio" href="portfolio">
+              Portfolio
+            </a>
           </li>
-          <li class="nav-item">
-            <NavLink to="/contact">
-              <div class="nav-font text-light">Contact</div>
-            </NavLink>
+          <li className="mx-2" >
+            <a data-testid="contact" href="contact">
+              Contact
+            </a>
           </li>
-          <li class="nav-item">
-            <NavLink to="/resume">
-              <div class="nav-font text-light">Resume</div>
-            </NavLink>
+          <li className="mx-2" >
+            <a data-testid="resume" href="resume">
+              Resume
+            </a>
           </li>
         </ul>
-      </Navbar>
-    </div>
+      </nav>
+    </header>
   );
 }
 
