@@ -27,7 +27,7 @@ function Navigation(props) {
               Contact
             </a>
           </li>
-          <li className="mx-2" >
+          <li className="mx-2" onClick={() => setCurrentPage('resume')}>
             <a>
               Resume
             </a>

@@ -158,6 +158,10 @@ nav li {
   cursor: pointer;
 }
 
+.resume {
+  margin-top: 10%;
+}
+
 textarea {
   width: 60vw;
   height: 120px;
