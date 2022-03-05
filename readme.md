@@ -11,4 +11,4 @@ This application is my new portfolio built with React.
 https://ebtaterbug.github.io/react-portfolio/
 
 
-![](./screenshot.png)
+![](screenshot.PNG)
