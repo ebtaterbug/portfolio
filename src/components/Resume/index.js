@@ -1,11 +1,17 @@
 import React from "react";
-import resume from "./resume.PNG";
+import pdf from "./resume.pdf";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+
 
 function Resume() {
     return (
-        <section className="container">
-            <a><img src={resume} className="resume" alt="Resume" /></a>
-        </section>
+            <MDBContainer id="Resume">
+                <MDBRow>
+                    <MDBCol>
+                        <embed src={pdf} width="100%" height="750px" />
+                    </MDBCol>
+                </MDBRow>
+            </MDBContainer>
     );
 };
 
