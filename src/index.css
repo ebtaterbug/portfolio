@@ -178,6 +178,21 @@ textarea {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  justify-content: space-around;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+#resume {
+  margin: none;
+}
+
+.project {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 10%;
 }
 
 .flex-row {

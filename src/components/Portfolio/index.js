@@ -8,7 +8,7 @@ function Portfolio() {
 
     return (
         <div className="container">
-            <div className="my-5 center">
+            <div className="my-5 center project">
                     <img src={CollaborativeCargo} alt="CollaborativeCargo" />
                     <h3>Collaborative Cargo</h3>
                     <a href="https://github.com/ebtaterbug/collaborative-cargo" target="_blank">
@@ -18,9 +18,9 @@ function Portfolio() {
                         <button>Live Site</button>
                     </a>
             </div>
-            <div className="my-5 center">
-                    <img src={LetsChat} alt="WeathertoCamp" />
-                    <h3>Weather To Camp</h3>
+            <div className="my-5 center project">
+                    <img src={LetsChat} alt="Let's Chat" />
+                    <h3>Let's Chat</h3>
                     <a href="https://github.com/ebtaterbug/lets-chat" target="_blank">
                         <button >GitHub</button>
                     </a>
@@ -28,7 +28,7 @@ function Portfolio() {
                         <button>Live Site</button>
                     </a>
             </div>
-            <div className="my-5 center">
+            <div className="my-5 center project">
                     <img src={WeathertoCamp} alt="WeathertoCamp" />
                     <h3>Weather To Camp</h3>
                     <a href="https://github.com/ebtaterbug/weather-to-camp" target="_blank">
