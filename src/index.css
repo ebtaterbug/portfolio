@@ -33,19 +33,13 @@ body {
   color: var(--dark);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 500;
-  margin: 5px 0;
-  line-height: 1.25;
+#resume {
+  margin-top: 20%;
 }
-
 h1 {
-  font-size: 2.25rem;
+  font-size: 4rem;
+  margin-bottom: 0px;
+  margin-top: 20vh;
 }
 
 h2 {
@@ -54,6 +48,7 @@ h2 {
 
 h3 {
   font-size: 1.75rem;
+  margin-top: 30%;
 }
 
 h4 {
@@ -70,14 +65,16 @@ h6 {
 
 p {
   font-size: 1.1rem;
-  margin-top: 0;
-  margin: 10%;
+  margin-top: 5;
+  margin-bottom: 3px;
+  text-align: center;
 }
 
 a {
   color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
+  margin: 0px;
 }
 
 a:hover {
@@ -85,19 +82,17 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
-  justify-content: space-between;
+  background:white;
 }
 
 footer {
   display: flex; 
   align-items: center; 
   justify-content: center;
-  margin: 50px;
 }
 
 header a {
-  color: var(--light);
+  color: black;
 }
 
 button {
@@ -152,6 +147,7 @@ input:focus {
 
 li {
   list-style: none;
+  font-size: 1rem;
 }
 
 nav a:hover {
@@ -160,10 +156,6 @@ nav a:hover {
 
 nav li {
   cursor: pointer;
-}
-
-.resume {
-  margin-top: 10%;
 }
 
 textarea {
@@ -185,10 +177,6 @@ textarea {
   width: 100%;
 }
 
-#resume {
-  margin: none;
-}
-
 .project {
   width: 50%;
   margin: auto;
@@ -198,6 +186,8 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0px;
 }
 
 .space-between {
@@ -310,8 +300,4 @@ a {
   padding: 2px 4px;
   margin-left: -2px;
   margin-right: -2px;
-}
-
-.navActive {
-  color: var(--secondary);
 }

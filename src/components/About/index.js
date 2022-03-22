@@ -1,13 +1,15 @@
 import React from 'react';
-import coverImage from './cover-image.png';
+import Footer from '../Footer';
+
 function About() {
   return (
-    <section>
-      <img src={coverImage} style={{ width: "100%" }} alt="cover" />
+    <section className="flex-row">
       <div className="my-2">
+        <h1>Ian Joseph</h1>
         <p>
-        With a pursuit in entrepreneurship and a background in business, I decided to start a career in software development. I'm currently seeking to utilize my skills and ambition in my next opportunity.
+        Full Stack Web Developer
         </p>
+        <Footer/>
       </div>
     </section>
   );
