@@ -8,7 +8,7 @@ function Resume() {
             <MDBContainer id="Resume">
                 <MDBRow>
                     <MDBCol>
-                        <embed src={pdf} width="100%" height="1000vh"/>
+                        <embed src={pdf} width="100%" height="1000px"/>
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>

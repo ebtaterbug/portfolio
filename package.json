@@ -1,6 +1,6 @@
 {
-  "name": "react-portfolio",
-  "homepage": "https://ebtaterbug.github.io/react-portfolio",
+  "name": "portfolio",
+  "homepage": "https://ebtaterbug.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
