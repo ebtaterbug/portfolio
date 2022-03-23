@@ -64,9 +64,13 @@ h6 {
 
 p {
   font-size: 1.1rem;
-  margin-top: 5;
   margin-bottom: 3px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
+  color: #5a5a5a;
+  width: 50%;
 }
 
 a {
@@ -181,6 +185,16 @@ img {
   height: 15em;
   border: solid 2px rgb(146, 146, 146);
 }
+
+.skills {
+  font-size: 90%;
+  font-weight: lighter;
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 10px;  
+}
+
 
 .flex-row {
   display: flex;

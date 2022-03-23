@@ -17,8 +17,8 @@ function Navigation(props) {
               Portfolio
             </a>
           </li>
-          <li className="mx-2" onClick={() => setCurrentPage('resume')}>
-            <a>
+          <li className="mx-2" >
+            <a href="https://docs.google.com/document/d/1ThpwURsyOEgRSaZ0ob5SEKmdqUoGX7o2TtZQCA3pVg8" target="_blank">
               Resume
             </a>
           </li>
